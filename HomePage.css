@@ -1,0 +1,274 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  i{
+    padding:10px;
+  }
+a{
+    
+    text-decoration: none;
+}
+p{
+    
+    font-family: 'Helvetica', sans-serif;
+}
+section {
+    display: flex;
+    margin-top: 40px; 
+    margin-left: 5%;
+    margin-bottom: 40px;
+    padding: 20px; 
+    width:45%;
+}
+header{
+    display:flex;
+    margin-left: 7%;
+    margin-right: 7%;
+    justify-content: space-between;
+}
+header>nav{
+    display:flex;
+    align-items: center;
+}
+header>nav>div>a{
+    color: grey;
+}
+header>nav>div>a:hover{
+    color: black;
+}
+header>img{
+    width: 15%;
+    cursor: pointer;
+}
+nav.common a{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 20px;
+}
+header>nav>div>a.download{
+    border-left: 1px solid gray;
+    padding-right: 10px;
+    border-right: 1px solid gray;
+    padding-left: 10px;
+}
+header>nav>div{
+    display:flex;
+    align-items: center;
+}
+header>nav>a{
+    margin:10px;
+}
+header>nav>a.join{
+    height:20px;
+    padding:10px;
+}
+header>nav>a.join:hover{
+    padding-left: 10px;
+    background-color: aliceblue;
+    height:20px;
+    padding:10px;
+    border-radius: 15px
+}
+header>nav>a.signin,.section2>nav>a.showall{
+    border:1px solid blue;
+    color:blue;
+    height:20px;
+    padding:10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 20px;
+    margin: 5px;
+}
+header>nav>a.signin:hover,.section2>nav>a.showall:hover{
+    border:1px solid blue;
+    background-color: aliceblue;
+    color:blue;
+    height:20px;
+    padding:10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 20px;
+    margin: 5px;
+    
+}
+
+section>div>form{
+    display: flex;
+    flex-direction: column;
+
+}
+.sectionimg{
+    width:10%
+}
+h1 {
+    font-family: 'Helvetica', sans-serif;
+    font-weight: lighter;
+    font-size: 50px;
+    flex: 1 1 100px; 
+    color: brown;
+}
+form {
+    margin-top: 50px; 
+    margin-bottom: 10px;
+}
+form>p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+form>input{
+    width: 75%;
+    height: 50px;
+}
+.signin{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom:30px;
+}
+
+form>input::placeholder{
+    text-align: right;
+    padding-right: 5px;
+    font-size: 18px;
+    color:blue
+}
+button{
+    width:75%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: white;
+    background-color: blue;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+.line{
+    display:flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.line>div{
+    display:flex;
+
+}
+.or{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.custom-line{
+    border-top: 1px solid #000;
+    width: 33%;
+    margin-top: 10px;
+
+}
+.links{
+    margin-top: 40px;
+    width:80%;
+    font-size:14px;
+    margin-bottom: 40px;
+
+}
+.google{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    border:1px solid black;
+    font-size:14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section2,.section3{
+    display: flex;
+    margin-top: 40px; 
+    margin-left: 5%;
+    margin-bottom: 40px;
+    padding: 20px;
+    justify-content: space-between;
+}
+.section2>div{
+    width:40%;
+}
+
+.section3>div{
+    display:flex;
+    flex-direction:column;
+    width:50%;
+}
+
+.section2>div>h1{
+    color: #000;
+    width:60%
+}
+.section2>div>p{
+    padding-top: 20px;
+    font-size:20px;
+
+}
+.section3>div>nav{
+    display:flex;
+    width:80%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 60px;
+    margin-top: 40px;
+    height:60%
+}
+.section2>nav{
+    display:flex;
+    width:45%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 60px;
+    margin-top: 40px;
+    height:60%
+}
+.section3>div>nav>a{
+    border:1px solid black;
+    color:#000;
+    height:20px;
+    padding:10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 20px;
+    margin: 5px;
+}
+.section3>div>nav>a{
+    border:1px solid black;
+    color:#000;
+    height:20px;
+    padding:10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 20px;
+    margin: 5px;
+}
+.section2>nav>a{
+    border:1px solid black;
+    color:#000;
+    height:20px;
+    padding:10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 20px;
+    margin: 5px;
+}
+.section2>nav>a:hover{
+    background-color: grey;
+    border:1px solid black;
+    color:#000;
+    height:20px;
+    padding:10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 20px;
+    margin: 5px;
+}
+
